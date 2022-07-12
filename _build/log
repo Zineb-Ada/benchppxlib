@@ -1,0 +1,119 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /Users/tarides/Desktop/Tarides-Ocaml/benchppxlib
+# Auto-detected concurrency: 8
+$ /Users/tarides/.opam/4.12.1/bin/ocamlc.opt -config > /var/folders/4_/sklhcczx3xd33g2m3hmnpx7h0000gn/T/dune_d59e65_output
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; for_host = None
+#  ; fdo_target_exe = None
+#  ; build_dir = "default"
+#  ; toplevel_path = Some External "/Users/tarides/.opam/4.12.1/lib/toplevel"
+#  ; ocaml_bin = External "/Users/tarides/.opam/4.12.1/bin"
+#  ; ocaml = Ok External "/Users/tarides/.opam/4.12.1/bin/ocaml"
+#  ; ocamlc = External "/Users/tarides/.opam/4.12.1/bin/ocamlc.opt"
+#  ; ocamlopt = Ok External "/Users/tarides/.opam/4.12.1/bin/ocamlopt.opt"
+#  ; ocamldep = Ok External "/Users/tarides/.opam/4.12.1/bin/ocamldep.opt"
+#  ; ocamlmklib = Ok External "/Users/tarides/.opam/4.12.1/bin/ocamlmklib.opt"
+#  ; env =
+#      map
+#        { "DUNE_OCAML_HARDCODED" : "/Users/tarides/.opam/4.12.1/lib"
+#        ; "DUNE_OCAML_STDLIB" : "/Users/tarides/.opam/4.12.1/lib/ocaml"
+#        ; "DUNE_SOURCEROOT" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/benchppxlib"
+#        ; "INSIDE_DUNE" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/benchppxlib/_build/default"
+#        ; "MANPATH" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/benchppxlib/_build/install/default/bin"
+#        ; "OCAMLFIND_IGNORE_DUPS_IN" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/benchppxlib/_build/install/default/lib"
+#        ; "OCAMLPATH" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/benchppxlib/_build/install/default/lib"
+#        ; "OCAMLTOP_INCLUDE_PATH" :
+#            "/Users/tarides/Desktop/Tarides-Ocaml/benchppxlib/_build/install/default/lib/toplevel"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; findlib_path = [ External "/Users/tarides/.opam/4.12.1/lib" ]
+#  ; arch_sixtyfour = true
+#  ; natdynlink_supported = true
+#  ; supports_shared_libraries = true
+#  ; ocaml_config =
+#      { version = "4.12.1"
+#      ; standard_library_default = "/Users/tarides/.opam/4.12.1/lib/ocaml"
+#      ; standard_library = "/Users/tarides/.opam/4.12.1/lib/ocaml"
+#      ; standard_runtime = "the_standard_runtime_variable_was_deleted"
+#      ; ccomp_type = "cc"
+#      ; c_compiler = "cc"
+#      ; ocamlc_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlc_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; ocamlopt_cflags = [ "-O2"; "-fno-strict-aliasing"; "-fwrapv" ]
+#      ; ocamlopt_cppflags = [ "-D_FILE_OFFSET_BITS=64"; "-D_REENTRANT" ]
+#      ; bytecomp_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; bytecomp_c_libraries = [ "-lm"; "-lpthread" ]
+#      ; native_c_compiler =
+#          [ "cc"
+#          ; "-O2"
+#          ; "-fno-strict-aliasing"
+#          ; "-fwrapv"
+#          ; "-D_FILE_OFFSET_BITS=64"
+#          ; "-D_REENTRANT"
+#          ]
+#      ; native_c_libraries = [ "-lm" ]
+#      ; native_pack_linker = [ "ld"; "-r"; "-o" ]
+#      ; cc_profile = []
+#      ; architecture = "amd64"
+#      ; model = "default"
+#      ; int_size = 63
+#      ; word_size = 64
+#      ; system = "macosx"
+#      ; asm = [ "clang"; "-arch"; "x86_64"; "-Wno-trigraphs"; "-c" ]
+#      ; asm_cfi_supported = true
+#      ; with_frame_pointers = false
+#      ; ext_exe = ""
+#      ; ext_obj = ".o"
+#      ; ext_asm = ".s"
+#      ; ext_lib = ".a"
+#      ; ext_dll = ".so"
+#      ; os_type = "Unix"
+#      ; default_executable_name = "a.out"
+#      ; systhread_supported = true
+#      ; host = "x86_64-apple-darwin20.6.0"
+#      ; target = "x86_64-apple-darwin20.6.0"
+#      ; profiling = false
+#      ; flambda = false
+#      ; spacetime = false
+#      ; safe_string = true
+#      ; exec_magic_number = "Caml1999X029"
+#      ; cmi_magic_number = "Caml1999I029"
+#      ; cmo_magic_number = "Caml1999O029"
+#      ; cma_magic_number = "Caml1999A029"
+#      ; cmx_magic_number = "Caml1999Y029"
+#      ; cmxa_magic_number = "Caml1999Z029"
+#      ; ast_impl_magic_number = "Caml1999M029"
+#      ; ast_intf_magic_number = "Caml1999N029"
+#      ; cmxs_magic_number = "Caml1999D029"
+#      ; cmt_magic_number = "Caml1999T029"
+#      ; natdynlink_supported = true
+#      ; supports_shared_libraries = true
+#      ; windows_unicode = false
+#      }
+#  }
+$ (cd _build/default && /Users/tarides/.opam/4.12.1/bin/ocamlc.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -bin-annot -I .benchppx.eobjs/byte -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/runtime -I /Users/tarides/.opam/4.12.1/lib/result -no-alias-deps -opaque -o .benchppx.eobjs/byte/dune__exe__Benchppx.cmi -c -intf benchppx.pp.mli)
+$ (cd _build/default && /Users/tarides/.opam/4.12.1/bin/ocamlc.opt -g -w -24 -I .ppx/52c49c7c6bc3dda051f54733e606b527 -I /Users/tarides/.opam/4.12.1/lib/ocaml-compiler-libs/common -I /Users/tarides/.opam/4.12.1/lib/ocaml-compiler-libs/shadow -I /Users/tarides/.opam/4.12.1/lib/ocaml/compiler-libs -I /Users/tarides/.opam/4.12.1/lib/ppx_derivers -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/api -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/ord -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/show -I /Users/tarides/.opam/4.12.1/lib/ppxlib -I /Users/tarides/.opam/4.12.1/lib/ppxlib/ast -I /Users/tarides/.opam/4.12.1/lib/ppxlib/astlib -I /Users/tarides/.opam/4.12.1/lib/ppxlib/print_diff -I /Users/tarides/.opam/4.12.1/lib/ppxlib/stdppx -I /Users/tarides/.opam/4.12.1/lib/ppxlib/traverse_builtins -I /Users/tarides/.opam/4.12.1/lib/result -I /Users/tarides/.opam/4.12.1/lib/sexplib0 -I /Users/tarides/.opam/4.12.1/lib/stdlib-shims -no-alias-deps -o .ppx/52c49c7c6bc3dda051f54733e606b527/dune__exe___ppx.cmo -c -impl .ppx/52c49c7c6bc3dda051f54733e606b527/_ppx.ml-gen)
+$ (cd _build/default && /Users/tarides/.opam/4.12.1/bin/ocamlopt.opt -g -w -24 -I .ppx/52c49c7c6bc3dda051f54733e606b527 -I /Users/tarides/.opam/4.12.1/lib/ocaml-compiler-libs/common -I /Users/tarides/.opam/4.12.1/lib/ocaml-compiler-libs/shadow -I /Users/tarides/.opam/4.12.1/lib/ocaml/compiler-libs -I /Users/tarides/.opam/4.12.1/lib/ppx_derivers -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/api -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/ord -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/show -I /Users/tarides/.opam/4.12.1/lib/ppxlib -I /Users/tarides/.opam/4.12.1/lib/ppxlib/ast -I /Users/tarides/.opam/4.12.1/lib/ppxlib/astlib -I /Users/tarides/.opam/4.12.1/lib/ppxlib/print_diff -I /Users/tarides/.opam/4.12.1/lib/ppxlib/stdppx -I /Users/tarides/.opam/4.12.1/lib/ppxlib/traverse_builtins -I /Users/tarides/.opam/4.12.1/lib/result -I /Users/tarides/.opam/4.12.1/lib/sexplib0 -I /Users/tarides/.opam/4.12.1/lib/stdlib-shims -intf-suffix .ml-gen -no-alias-deps -o .ppx/52c49c7c6bc3dda051f54733e606b527/dune__exe___ppx.cmx -c -impl .ppx/52c49c7c6bc3dda051f54733e606b527/_ppx.ml-gen)
+$ (cd _build/default && /Users/tarides/.opam/4.12.1/bin/ocamlopt.opt -g -w -24 -o .ppx/52c49c7c6bc3dda051f54733e606b527/ppx.exe /Users/tarides/.opam/4.12.1/lib/ocaml/compiler-libs/ocamlcommon.cmxa /Users/tarides/.opam/4.12.1/lib/ppx_derivers/ppx_derivers.cmxa /Users/tarides/.opam/4.12.1/lib/ocaml-compiler-libs/common/ocaml_common.cmxa /Users/tarides/.opam/4.12.1/lib/ppxlib/astlib/astlib.cmxa /Users/tarides/.opam/4.12.1/lib/stdlib-shims/stdlib_shims.cmxa /Users/tarides/.opam/4.12.1/lib/ppxlib/ast/ppxlib_ast.cmxa /Users/tarides/.opam/4.12.1/lib/ocaml-compiler-libs/shadow/ocaml_shadow.cmxa /Users/tarides/.opam/4.12.1/lib/ppxlib/print_diff/ppxlib_print_diff.cmxa /Users/tarides/.opam/4.12.1/lib/ppxlib/traverse_builtins/ppxlib_traverse_builtins.cmxa /Users/tarides/.opam/4.12.1/lib/sexplib0/sexplib0.cmxa /Users/tarides/.opam/4.12.1/lib/ppxlib/stdppx/stdppx.cmxa /Users/tarides/.opam/4.12.1/lib/ppxlib/ppxlib.cmxa /Users/tarides/.opam/4.12.1/lib/result/result.cmxa /Users/tarides/.opam/4.12.1/lib/ppx_deriving/api/ppx_deriving_api.cmxa /Users/tarides/.opam/4.12.1/lib/ppx_deriving/ord/ppx_deriving_ord.cmxa /Users/tarides/.opam/4.12.1/lib/ppx_deriving/show/ppx_deriving_show.cmxa .ppx/52c49c7c6bc3dda051f54733e606b527/dune__exe___ppx.cmx)
+$ (cd _build/default && .ppx/52c49c7c6bc3dda051f54733e606b527/ppx.exe -o benchppx.pp.ml --impl benchppx.ml -corrected-suffix .ppx-corrected -diff-cmd - -dump-ast)
+$ (cd _build/default && /Users/tarides/.opam/4.12.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I .benchppx.eobjs/byte -I .benchppx.eobjs/native -I /Users/tarides/.opam/4.12.1/lib/ppx_deriving/runtime -I /Users/tarides/.opam/4.12.1/lib/result -intf-suffix .ml -no-alias-deps -opaque -o .benchppx.eobjs/native/dune__exe__Benchppx.cmx -c -impl benchppx.pp.ml)
+$ (cd _build/default && /Users/tarides/.opam/4.12.1/bin/ocamlopt.opt -w @1..3@5..28@30..39@43@46..47@49..57@61..62-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -o benchppx.exe /Users/tarides/.opam/4.12.1/lib/result/result.cmxa /Users/tarides/.opam/4.12.1/lib/ppx_deriving/runtime/ppx_deriving_runtime.cmxa .benchppx.eobjs/native/dune__exe__Benchppx.cmx)

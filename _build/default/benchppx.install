@@ -1,0 +1,5 @@
+lib: [
+  "_build/install/default/lib/benchppx/META"
+  "_build/install/default/lib/benchppx/dune-package"
+  "_build/install/default/lib/benchppx/opam"
+]
